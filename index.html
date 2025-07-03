@@ -81,10 +81,63 @@
         </div>
         <div class="all-content">
             <section id="about-us" class="section-container">
-                <h3>Hello I'm <span id="role">Web Developer</span></h3>
+                <h3>Hello, I'm <span id="role">Web Developer</span></h3>
+                <h1>Junior Web Developer and <span>Problem Solver</span> Based in Nigeria, Lagos City.</h1>
+                <p>Have worked in a variety of positions, including junior key developer, solution designer/problem solver, data 
+                    architect, Strong enineering background combined with closely working with business customers.</p>
+                
+                <div class="project-container-about">
+                    <div class="project-container-box">
+                        <span>27</span>
+                        <strong>Completed Projects</strong>
+                    </div>
+
+                    <div class="project-container-box">
+                        <span>3</span>
+                        <strong>Years of Experience</strong>
+                    </div>
+
+                    <div class="project-container-box">
+                        <span>10+</span>
+                        <strong>Awards winning</strong>
+                    </div>
+                </div> 
             </section>
         </div>
     </div>
     
+
+    <script>
+        document.addEventListener("DOMContentLoaded",()=>{
+            const roles = ["Web Developer", "Software Engineer", "Full-Stack Developer"];
+            const roleElement = document.getElementById('role');
+            let roleIndex = 0;
+            let letterIndex = 0;
+            let typingInterval;
+
+            function typeRole(){
+                roleElement.style.opacity = 0;
+                setTimeout(() => {
+                    roleElement.textContent = "";
+                    letterIndex = 0;
+
+                    typingInterval = setInterval(() => {
+                        if(letterIndex < roles[roleIndex].length) {
+                            roleElement.textContent += roles[roleIndex].charAt(letterIndex);
+                            letterIndex++;
+                        }else{
+                            clearInterval(typingInterval);
+                            setTimeout(() => {
+                                roleIndex = (roleIndex + 1) % roles.length;
+                                typeRole();
+                            }, 1000);
+                        }
+                    }, 150);
+                    roleElement.style.opacity = 1;
+                }, 500);
+            }
+            typeRole();
+        });
+    </script>
 </body>
 </html>
