@@ -422,3 +422,12 @@ header ul li a:hover{
     font-size: 1rem;
     font-weight: 600;
 }
+.service-box-details{
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin: 20px 0px;
+}
+.service-box a{
+    color: var(--main-color);
+    text-decoration: underline;
+}
