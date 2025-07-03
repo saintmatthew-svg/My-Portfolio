@@ -417,3 +417,8 @@ header ul li a:hover{
     opacity: 0.6;
     font-size: 0.8em;
 }
+.service-box-heading-text strong{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
