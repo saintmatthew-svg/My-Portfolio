@@ -14,10 +14,10 @@ ul{
     --main-color: #d2e67a;
     --secondary-color: #5f85db;
     --text-color: #f6f4f0;
-    --bg-color: #222222;
+    --bg-color: #0f0f0f;
     --body-bg-color: #2d2d33;
     --border-color: #303030;
-    --gradient-start: rgb(26, 26, 26);
+    --gradient-start: rgb(39, 39, 39);
     --gradient-end: #0c0c0c;
     --bg-gradient-start: #2d2f31;
     --bg-gradient-end: #272a2e;
@@ -328,4 +328,10 @@ header ul li a:hover{
     border: 1px solid var(--border-color);
     padding: 30px;
     border-radius: 10px;
+}
+.skill-box-content{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-gap: 10px;
+    align-items: center;
 }
