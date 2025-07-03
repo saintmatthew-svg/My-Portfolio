@@ -312,5 +312,8 @@ header ul li a:hover{
     letter-spacing: 1px;
 }
 .section-heading h3{
-    
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 6px;
 }
