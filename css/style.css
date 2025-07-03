@@ -363,3 +363,11 @@ header ul li a:hover{
     overflow: hidden;
     margin-top: 15px;
 }
+.skill-box-bar span{
+    background-color: var(--text-color);
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+}
