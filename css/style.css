@@ -335,3 +335,7 @@ header ul li a:hover{
     grid-gap: 10px;
     align-items: center;
 }
+.skill-box-content i{
+    color: var(--main-color);
+    font-size: 2rem;
+}
