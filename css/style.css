@@ -468,3 +468,14 @@ header ul li a:hover{
     font-weight: 500;
     margin-top: 10px;
 }
+.plan-box a{
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
