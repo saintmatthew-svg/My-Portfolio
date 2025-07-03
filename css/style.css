@@ -344,7 +344,7 @@ header ul li a:hover{
     font-weight: 500;
 }
 .skill-box-percentage{
-    position: absolute;
+    position: relative;
     right: 10px;
     top: 10px;
     border-radius: 10px;
