@@ -429,5 +429,8 @@ header ul li a:hover{
 }
 .service-box a{
     color: var(--main-color);
+    text-transform: uppercase;
     text-decoration: underline;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
