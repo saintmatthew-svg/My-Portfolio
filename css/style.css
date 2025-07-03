@@ -412,3 +412,8 @@ header ul li a:hover{
     display: flex;
     flex-direction: column;
 }
+.service-box-heading-text span{
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.8em;
+}
