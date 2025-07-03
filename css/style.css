@@ -408,3 +408,7 @@ header ul li a:hover{
     object-fit: contain;
     object-position: center;
 }
+.service-box-heading-text{
+    display: flex;
+    flex-direction: column;
+}
