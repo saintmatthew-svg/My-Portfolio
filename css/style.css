@@ -393,3 +393,12 @@ header ul li a:hover{
     display: flex;
     flex-direction: column;
 }
+.service-box-heading{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+}
+.service-box-icon{
+    width: 100%;
+    display: flex;
+}
