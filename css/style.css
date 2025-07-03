@@ -478,4 +478,9 @@ header ul li a:hover{
     margin: 10px 0px;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: all ease 0.3s;
+}
+.plan-box a:hover{
+    color: var(--bg-color);
+    background-color: var(--text-color);
 }
