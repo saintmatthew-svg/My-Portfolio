@@ -496,3 +496,12 @@ header ul li a:hover{
     align-items: flex-start;
     grid-gap: 10px;
 }
+.pricing-box-feature li i{
+    color: var(--text-color);
+}
+.pricing-box-feature li span{
+    margin: -5px;
+    display: flex;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
