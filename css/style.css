@@ -484,3 +484,9 @@ header ul li a:hover{
     color: var(--bg-color);
     background-color: var(--text-color);
 }
+.pricing-box-feature{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    margin: 30px 0px 20px 0px;
+}
