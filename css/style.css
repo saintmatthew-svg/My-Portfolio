@@ -505,3 +505,16 @@ header ul li a:hover{
     color: var(--text-color);
     font-size: 0.9rem;
 }
+.project-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 0px;
+}
+.project-list li{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+}
