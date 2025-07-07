@@ -11,7 +11,7 @@ ul{
     list-style: none;
 }
 :root{
-    --main-color:rgb(15, 240, 172);
+    --main-color:rgb(15, 240, 82);
     --secondary-color: #5f85db;
     --text-color: #f6f4f0;
     --bg-color: #0f0f0f;
@@ -437,7 +437,7 @@ header ul li a:hover{
 .plan-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap     : 0px;
+    grid-gap: 20px;
     margin-top: 40px;
 }
 .plan-box{
